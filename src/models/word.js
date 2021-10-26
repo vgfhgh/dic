@@ -9,5 +9,5 @@ const wordSchema = mongoose.Schema({
     r_pos: {type: String, trim: true}
 })
 
-const User = mongoose.model('User',wordSchema)
-module.exports = User;
+const Word = mongoose.model('Word',wordSchema,'kor_dic_coll')
+module.exports = Word;

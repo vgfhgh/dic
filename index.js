@@ -11,7 +11,7 @@ var corsOptions = { // CORS 옵션
     origin: '*',
     credentials: true
 }
-const CONNECT_URL = 'mongodb://localhost:27017/asdf' // DB 이름 변경하기
+const CONNECT_URL = 'mongodb://localhost:27017/kor_dic_db' // DB 이름 변경하기
 mongoose.connect(CONNECT_URL, { // Mongo DB 서버 연결
     useNewUrlParser: true,
     useUnifiedTopology: true
